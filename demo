@@ -1,0 +1,518 @@
+:: StoryTitle
+Six of Crows
+
+
+:: StoryData
+{
+  "ifid": "A3BEB7DB-9A43-408C-8513-3F94609E5554",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "code start",
+  "tag-colors": {
+    "JW-CAUGHT": "red",
+    "MATTHIAS-KEY": "green"
+  },
+  "zoom": 1
+}
+
+
+:: Broom Closet {"position":"1850,1150","size":"100,100"}
+It's just the broom closet. There's a few jackets and coats that haven't been touched in a while according to the dust on the sleeves. 
+
+The only recently touched item is the servant's coat hanging. 
+
+[[Leave closet.|FOYER]]
+
+
+:: Check Painting. {"position":"2175,1100","size":"100,100"}
+ The painting is ugly. But, there is scratch marks on the wall like the painting has been moved...
+ 
+ [[Move painting.]]
+
+
+:: Check porcelain cabinet. {"position":"2425,1175","size":"100,100"}
+You open up the porcelain cabinet and find lots of nice dinnerware but nothing you really want to have to lug around with you. Maybe a teaspoon... 
+
+Aside from that, there is a golden key hanging from a nail on the back of the cabinet. 
+
+[[Take the key.]]
+[[Leave the key.]]
+
+
+:: Check the barrels. [JW-CAUGHT] {"position":"1300,875","size":"100,100"}
+You investiagte the barrels but there's nothing worth stealing in them. Fish and stuff... gross. 
+
+What <i>is</i> of note is the WANTED posters stamped to them... with yours and your friends' faces on them. Hopefully no one else saw--
+
+"Hey! You!" A stadwatch guard calls over. 
+
+"Jesper?" Wylan enters the alley, confused. 
+
+You don't have time to warn him before the stadwatch grab you both. Shit. 
+
+<i>Jesper and Wylan have been CAUGHT.</i>
+<i>[[Switch to Kaz.]]</i>
+<<set $jesperFree to false>>
+<<set $wylanFree to false>>
+
+
+:: Convo1 {"position":"1550,625","size":"100,100"}
+Wylan glares at you, then returns to focusing on the door. He doesn't seem to give your comment any mind. 
+
+"Either wait patiently or go keep yourself entertained," he says. 
+
+As you consider this, you notice a group of people congregating in the alleyway across the street. Your gambling senses are tingling... 
+
+[[Go to the alleyway.]]
+[[Wait patiently for Wylan.]]
+
+
+:: DINING ROOM {"position":"2425,1475","size":"100,100"}
+You enter the door on the left to continue your search. Wylan follows you into the kitchen. It's spotless with nothing laying about. The servants the mercher has here must be pretty good. 
+
+[[Search the cabinets.]]
+[[Search the cupboard.]]
+[[Search island counter.]]
+<<set $loudsearch to 0>>
+
+
+:: Don't pull the lever. {"position":"2237.5,1350","size":"100,100"}
+Maybe some things are better left untouched. 
+
+You move the painting back to where it was. 
+
+[[Leave painting.|FOYER]]
+
+
+:: End cups on loss {"position":"900,1200","size":"100,100"}
+You leave the table, not wanting to lose anymore money. Whatever... that game sucks anyway. 
+
+[[Return to Wylan.]]
+[[Check the barrels.]]
+
+
+:: End cups on win {"position":"1275,1200","size":"100,100"}
+50 kruge is good enough. You leave the table, pleased with yourself and your guessing ability. 
+
+[[Return to Wylan.]]
+[[Check the barrels.]]
+
+
+:: Enter foyer. {"position":"1975,875","size":"100,100"}
+You step into the foyer of the mercher's house and Wylan follows, closing the door behind him. 
+
+The room is small but grand in decor. There is a large painting on the far wall that looks to be a portrait of the mercher with his wife, both of whom are adorned in diamonds and other rare jewels.
+
+Under the painting is a table with clutter sitting on it.
+
+There is a door to your right with a jacket hanging on the handle. There is another door across the room and another to the left which Wylan enters and leaves you behind. 
+
+[[Check Painting.]]
+[[Try door on the right.|Broom Closet]]
+[[Try door across the room.|Living Room]]
+[[Check Table.|Foyer table]]
+[[Follow Wylan.]]
+
+
+:: FALSE START {"position":"175,0","size":"100,100"}
+SIX OF CROWS HEIST
+This is the start of the story.  Kaz's End is $kazEnd
+
+
+[[Hello]]
+
+
+:: FOYER {"position":"2100,875","size":"100,100"}
+There is a large painting on the far wall that looks to be a portrait of the mercher with his wife, both of whom are adorned in diamonds and other rare jewels.
+
+Under the painting is a table with clutter sitting on it.
+
+There is a door to your right with a jacket hanging on the handle. There is another door across the room and another to the left which Wylan enters and leaves you behind. 
+
+[[Check Painting.]]
+[[Try door on the right.|Broom Closet]]
+[[Try door across the room.|Living Room]]
+[[Check Table.|Foyer table]]
+[[Follow Wylan.]]
+
+
+:: Follow Wylan. {"position":"2325,1050","size":"100,100"}
+You walk through the door on the left and enter the dining room. Wylan is already searching the dining table for anything useful or maybe a hint as to where Matthias is being held captive. 
+
+There's another door to the right, but maybe you should wait for Wylan before you continue on.
+
+Against the back wall is a porcelain cabinet. Maybe there's something pricey you could steal from in there. 
+
+[[Check porcelain cabinet.]]
+
+
+:: Foyer table {"position":"2025,1150","size":"100,100"}
+There's a stack of papers and a newspaper clipping on top. 
+
+It reads: "Merchant Dan Veldman stuns competitors and supporters with huge sale in the Exchange!" 
+
+You don't bother to read the smaller text. 
+
+[[Leave table.|FOYER]]
+
+
+:: Go to the alleyway. {"position":"1225,750","size":"100,100"}
+Wylan says nothing as you wander off and into the alley. You don't think he noticed you leave. 
+
+Within the alley there is a table with a group of men standing and sitting around it. Three cups are on the table with a ball in the hand of the person behind the table. Your gambling senses were right! A gambling game is afoot. 
+
+Past the table, there are some barrels that look like they might have something in them. 
+
+[[Join the table game.]]
+[[Check the barrels.]]
+
+
+:: Hello {"position":"175,125","size":"100,100"}
+let's go <<back>>
+
+<<set $inejEnd to false>>
+[[next]]
+
+
+:: Hide behind island counter. [JW-CAUGHT] {"position":"2575,1875","size":"100,100"}
+You duck behind the counter but you know you're in plain sight if someone just walks around the corner. 
+
+Wylan jumps into the trash bin and somehow fits perfectly.
+
+You watch as the servant's quarters open and the servant stares at you plainly with wide eyes. She screams and runs back into the quarters. The locks click on all the doors and windows. A silent alarm is going off, definitely. 
+
+<i>Jesper and Wylan have been CAUGHT.</i>
+<i>[[Switch to Kaz.]]</i>
+<<set $jesperFree to false>>
+<<set $wylanFree to false>>
+
+
+:: Hide in cabinet. [JW-CAUGHT] {"position":"2325,1875","size":"100,100"}
+You jump onto the counter and try to climb into the counter, but you can't quite fit. 
+
+Wylan jumps into the trash bin and somehow fits perfectly.
+
+You watch as the servant's quarters open and the servant stares at you plainly with wide eyes. She screams and runs back into the quarters. The locks click on all the doors and windows. A silent alarm is going off, definitely. 
+
+<i>Jesper and Wylan have been CAUGHT.</i>
+<i>[[Switch to Kaz.]]</i>
+<<set $jesperFree to false>>
+<<set $wylanFree to false>>
+
+
+:: Hide in cupboard. {"position":"2450,1875","size":"100,100"}
+You scramble into the cupboard, pushing the broom away from the lower half and squeeze in. 
+
+Wylan jumps into the trash bin and somehow fits perfectly.
+
+You hear the servant walk through the kitchen, searching for the commotion she heard, but finds nothing. She walks back into the servant's quarters and you hear the door shut. 
+
+You're safe. You and Wylan leave your hiding spots and agree it's probably time to find Inej and Nina. 
+
+<i>[[Switch to Kaz.]]</i>
+
+
+:: Join the table game. {"position":"950,875","size":"100,100"}
+The seat at the table for the player is open. You take your seat. 
+
+The game maker grins at you and shows you three cups and a ball. He places the ball underneath the middle cup. You understand the game: find the ball. It'll be easy... You place 25 kruge into the pot.
+
+The cups move at lightning speed, faster than you've ever seen. It's just a guessing game now. Where is the ball? 
+
+[[Left Cup.|Win]]
+[[Middle Cup.|Lose]]
+[[Right Cup.|Lose]]
+<<set $loss to 0>>
+
+
+:: Leave the key. {"position":"2487.5,1300","size":"100,100"}
+Meh, you probably don't need that. 
+
+Wylan walks over to you. It looks like he didn't find anything on the dining table. 
+
+"We should probably go find Inej and Nina. They might be having more luck finding Matthias," he says. 
+
+[[Continue searching.|DINING ROOM]]
+Agreed, you should go find the others. <i>[[Switch to Kaz.]]</i>
+
+
+:: Living Room {"position":"1700,1100","size":"100,100"}
+The door is locked. 
+
+[[Nevermind then.|FOYER]]
+
+
+:: Lose {"position":"775,1025","size":"100,100"}
+He lifts the cup and... there's nothing there. You've lost. 
+
+There goes your 25 kruge... but you have a little bit more money...
+
+[[Play again.]]
+[[Leave.|End cups on loss]]
+
+<<set $loss += 1>>
+<<if $loss == 3>>
+<<goto "No more cups.">>
+<<goto $selectedPassage>>
+<</if>>
+
+
+:: Move painting. {"position":"2175,1225","size":"100,100"}
+You tilt the painting to the side. Behind the painting is a hole in the wall with a lever. There's no clear sign as to what the lever goes to. 
+
+[[Pull the lever.]]
+[[Don't pull the lever.]]
+
+
+:: Next next {"position":"300,200","size":"100,100"}
+this is end
+
+
+:: No more cups. {"position":"775,1325","size":"100,100"}
+He lifts the cup and... there's nothing there. You've lost.
+
+Before you can even decide whether or not you want to play again, the game maker shoos you away with his hand. He says there's others that want to play. 
+
+Frustrated, you slam the table with your hand, causing the cups and ball to fall. 
+
+You don't bother with the cleanup. Wylan has probably found a way to break in by now. 
+
+[[Return to Wylan|Return CAUGHT]]
+
+
+:: Play again. {"position":"675,1200","size":"100,100"}
+You toss 25 kruge back into the pot. You could be lucky this time! 
+
+The cups basically disappear and reappear when they move. Where is the ball?
+
+[[Left Cup.|Lose]]
+[[Middle Cup.|Lose]]
+[[Right Cup.|Lose]]
+
+
+:: Pull the lever. [JW-CAUGHT] {"position":"2112.5,1350","size":"100,100"}
+You pull the lever and all of the doors in the room lock themselves. You run to open the front door but the handle won't budge. You can hear Wylan calling for you from the other room. 
+
+You pulled some kind of alarm and trapped yourself and Wylan inside...
+
+<i>Jesper and Wylan have been CAUGHT.</i>
+<i>[[Switch to Kaz.]]</i>
+<<set $jesperFree to false>>
+<<set $wylanFree to false>>
+
+
+:: Return CAUGHT [JW-CAUGHT] {"position":"775,1475","size":"100,100"}
+You return to the front door of the mercher's house. Wylan is still hovering at the lock... he really hasn't unlocked it yet? 
+
+You wave your arm and call out to him. He turns and looks... shocked? 
+
+Someone grabs your shoulder. "Making a problem are we?" 
+
+A stadwatch guard stands behind you. Before you can distract him, he also notices Wylan trying to break into a mercher's house. 
+
+"Making a BIG problem," says the stadwatch guard. 
+
+<i>Jesper and Wylan have been CAUGHT.</i>
+<i>[[Switch to Kaz.]]</i>
+<<set $jesperFree to false>>
+<<set $wylanFree to false>>
+
+
+:: Return to Wylan. {"position":"1300,1375","size":"100,100"}
+You walk up to Wylan just in time to see him finally unlock the door. Wylan stands, looking pleased, until he sees you. 
+
+"Oh, so you came back." He doesn't seem too happy that you left... but he does seem a bit relieved that you did actually come back. 
+
+Wylan holds the door open for you. "Ladies first."
+
+[[Enter foyer.]]
+
+
+:: START {"position":"1550,250","size":"100,100"}
+
+<div class="title">Six of Crows</div>
+<div class="centered">Matthias has been arrested and is being held hostage by a Ketterdam mercher (Dan Veldman) whom is intent on turning Matthias in to the Fjerdan druskelle and sending him back to the Ice Court for trial. The Crows need their buff-angry-ice-man back, so they’re going in to save their friend. The five Crows must infiltrate the mercher’s house and work in tandem while all spread out across the huge mansion. Who will make it out? Who will get caught in the process?</div>
+<div class="start">[[Start Game]]</div>
+
+
+:: Search island counter. {"position":"2300,1600","size":"100,100"}
+You dig through the drawers and cupboards of the counter, but don't find anything helpful. You slam a lot of drawers. Wylan shushes you but you don't really care. 
+
+[[Search the cabinets.]]
+[[Search the cupboard.]]
+<<set $loudsearch += 1>>
+<<if $loudsearch == 3>>
+<<goto "Servant sound">>
+<<goto $selectedPassage>>
+<</if>>
+
+
+:: Search the cabinets. {"position":"2425,1600","size":"100,100"}
+You reach up high to loot through the cabinets above the counter.
+
+Just food and stuff in the cabinets. Nothing helpful.  You toss a can behind you and it clatters to the ground loudly. Wylan glares at you.
+
+[[Search island counter.]]
+[[Search the cupboard.]]
+<<set $loudsearch += 1>>
+<<if $loudsearch == 3>>
+<<goto "Servant sound">>
+<<goto $selectedPassage>>
+<</if>>
+
+
+:: Search the cupboard. {"position":"2550,1600","size":"100,100"}
+The lower shelves are missing and hold a broom instead.
+
+Mostly empty containers and plates and other serving trays are in the cupboards. You drop a few containers in an attempt to move them out of the way. You know Wylan is disappointed. 
+
+[[Search island counter.]]
+[[Search the cabinets.]]
+<<set $loudsearch += 1>>
+<<if $loudsearch == 3>>
+<<goto "Servant sound">>
+<<goto $selectedPassage>>
+<</if>>
+
+
+:: Servant sound {"position":"2450,1750","size":"100,100"}
+Before you can continue the search, you hear rustling coming from the far wall. A part of the wall opens and a light shines through. 
+
+"Hello? Is somebody there?" 
+
+<i>Shit</i> It's the servant's quarters. There was one person left in the house, without your knowledge. 
+
+[[Hide in cupboard.]]
+[[Hide behind island counter.]]
+[[Hide in cabinet.]]
+
+
+:: Start Game {"position":"1550,375","size":"100,100"}
+The Crows: Kaz, Inej, Nina, Jesper and Wylan have infiltrated Merchant Veldman's gaudy house in the Geldstraat. Kaz planned the whole thing perfectly since the mercher and his family are out for some Merchant Coucil event in the Exchange. Thus, leaving the joint completely empty (hopefully). 
+
+Kaz disappeared upon arriving at the two story house.
+
+Inej and Nina took to the back of the house, looking for an entrance in the garden. 
+
+Jesper and Wylan stayed at the front door, simultaneously on look-out and trying to break in.
+
+[[Start as Jesper.]]
+
+
+:: Start as Jesper. {"position":"1550,500","size":"100,100"}
+<i>YOU ARE JESPER.</i>
+
+You stand impatiently by the locked front door. Wylan is next to you, squating down to be eye-level with the lock. 
+
+"Stop fidgeting," Wylan says. "I'm trying to concentrate."
+
+[["Can you go any faster?"|Convo1]]
+[["We should've gone through a window."|Convo1]]
+
+
+:: Switch to Kaz. {"position":"1600,2100","size":"100,100"}
+
+
+
+:: Take the key. [MATTHIAS-KEY] {"position":"2362.5,1300","size":"100,100"}
+You put the key in your pocket. It could be useful. 
+
+Wylan walks over to you. It looks like he didn't find anything on the dining table. 
+
+"We should probably go find Inej and Nina. They might be having more luck finding Matthias," he says. 
+
+[[Continue searching.|DINING ROOM]]
+Agreed, you should go find the others. <i>[[Switch to Kaz.]]</i>
+<<set $hasMattKey to true>>
+
+
+:: That's all {"position":"50,125","size":"100,100"}
+lets go <<return "Home">>
+
+
+:: Wait patiently for Wylan. {"position":"2000,725","size":"100,100"}
+You wait a good ten minutes for Wylan to finish with the lock... but eventually he gets it! Wylan opens the door. 
+
+"After you," Wylan says. He seems to be in a better mood since you waited instead of leaving him. 
+
+[[Enter foyer.]]
+
+
+:: Win {"position":"1175,1050","size":"100,100"}
+He lifts the left cup and... the ball! You've won! 
+
+You take 50 kruge as your winnings. 
+
+[[Play again.]]
+[[Leave.|End cups on win]]
+
+
+:: code start {"position":"1550,125","size":"100,100"}
+<<set $inejFree to true>>
+<<set $jesperFree to true>>
+<<set $kazFree to true>>
+<<set $wylanFree to true>>
+<<set $ninaFree to true>>
+<<set $matthiasFree to false>>
+<<set $grishaFree to false>>
+<<set $safeOpen to false>>
+<<set $hasMattKey to false>>
+<<set $hasGrishaKey to false>>
+<<set $safeTries to 0>>
+
+<<goto "START">>
+<<goto $selectedPassage>>
+
+
+:: next {"position":"175,250","size":"100,100"}
+<<if $inejEnd is false>>
+<<goto "Next next">>
+<<goto $selectedPassage>>
+<</if>>
+
+work
+
+
+:: StoryStylesheet [stylesheet]
+body {      
+  background-color: black;     
+  color: oldlace;     
+  font-family: Georgia,serif;     
+  font-size: 185%; 
+}
+
+a {      
+  color: cornflowerblue; 
+} 
+
+a:hover {      
+  color: crimson;     
+  text-decoration: underline; 
+}
+
+#ui-bar {     
+  display: none; 
+}
+
+#story {  
+  margin-left:3.5em; 
+}
+
+.intro {          
+  color: oldlace;     
+  font-size: 200%; 
+} 
+
+.title {
+  font-size: 300%;
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.start {
+  font-size: 215%;
+  text-align: center;
+}
